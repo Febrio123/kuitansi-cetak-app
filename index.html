@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-item">
+        <div class="header">
+          <h1>Kuitansi Cetak</h1>
+        </div>
+        <div class="form-box">
+          <div class="form-item">
+            <label for="username">Nama</label>
+            <input id="nama" type="text" placeholder="Masukkan nama anda..." />
+          </div>
+          <div class="form-item">
+            <label for="barang">Barang</label>
+            <input
+              id="barang"
+              type="text"
+              placeholder="Masukkan nama barang..."
+            />
+          </div>
+          <div class="form-item">
+            <label for="Harga">Harga</label>
+            <input
+              id="harga"
+              type="text"
+              placeholder="Masukkan Harga Barang..."
+            />
+          </div>
+          <div class="form-submit">
+            <button>Submit</button>
+          </div>
+          <div class="submit-print">
+            <button id="btn-print">Cetak</button>
+          </div>
+          <hr />
+        </div>
+        <div class="container-cart">
+          <div class="header-cart">
+            <h1>Carts : <span id="nama-cart"></span></h1>
+            <div class="table-cart">
+              <table border="2" cellspacing="0">
+                <thead>
+                  <tr>
+                    <th>id</th>
+                    <th>nama</th>
+                    <th>harga</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody">
+                  <!-- <tr>
+                    <td>1</td>
+                    <td>laptop</td>
+                    <td>Rp.10000</td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(19, 36, 112);
+  color: white;
+}
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  height: max-content;
+}
+.container-item {
+  width: 100%;
+  text-align: center;
+  border: 5px solid white;
+}
+.header h1 {
+  padding: 10px;
+  border-bottom: 3px solid white;
+}
+.form-box {
+  height: 500px;
+}
+.form-item {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item label {
+  font-size: 25px;
+  display: flex;
+}
+.form-item input {
+  padding: 13px;
+  margin-top: 5px;
+
+  font-size: 25px;
+}
+.form-submit button {
+  width: 100px;
+  padding: 15px;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-submit button:hover {
+  background-color: rgb(30, 161, 255);
+  scale: 0.96;
+  cursor: pointer;
+}
+.container-cart {
+  margin-top: -250px;
+  width: 100%;
+}
+.header-cart {
+  text-align: center;
+  margin-top: 300px;
+}
+.table-cart {
+  width: 100%;
+  margin-top: 10px;
+}
+.table-cart table {
+  width: 90%;
+  border-color: white;
+  margin: auto;
+}
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+#btn-print {
+  width: 100px;
+  padding: 15px;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#btn-print:hover {
+  background-color: rgb(255, 154, 30);
+  scale: 0.96;
+  cursor: pointer;
+}
